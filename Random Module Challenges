@@ -1,0 +1,24 @@
+CHALLENGE 1:
+
+import random
+number = random.randint(1,1000)
+print(number)
+
+CHALLENGE 2:
+
+import random
+colour = ["blue", "green", "yellow", "red", "purple"]
+selected = random.choice(colour)
+print(selected)
+
+CHALLENGE 3:
+
+import random
+coin = ["h", "t"]
+selected = random.choice(coin)
+guess = input(str("guess h or t>>>"))
+if guess == selected:
+    print("you win")
+else:
+    print("bad luck")
+    print("it was", selected)
