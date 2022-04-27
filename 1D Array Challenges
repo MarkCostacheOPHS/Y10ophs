@@ -1,0 +1,7 @@
+Challenge 1:
+
+cars = []
+cars.append(input("enter the name of a car brand --->>>"))
+cars.append(input("enter the name of a car brand --->>>"))
+cars.append(input("enter the name of a car brand --->>>"))
+print(cars)
