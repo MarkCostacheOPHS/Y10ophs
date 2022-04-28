@@ -14,10 +14,45 @@ cars = []
 a = True
 
 while a == True:
-    b = str(input("input a car brand or press x to exit --->>>))
+    b = str(input("input a car brand or press x to exit --->>>"))
 
     if b == ("x"):
         print("exiting...")
+        a = False
 
 
-    if b != ("x"):
+    else:
+        cars.append(b)
+        print(cars)
+
+
+Challenge 3
+
+people = []
+
+people.append(input("enter a name -->>"))
+people.append(input("enter a name -->>"))
+people.append(input("enter a name -->>"))
+
+a = True
+
+while a == True:
+    b = str(input("do you want to add another?"))
+
+    if b == ("yes"):
+        str(input("enter another name -->>"))
+
+    if b == ("no"):
+        a = False
+        print(len(people))
+
+
+Challenge 4:
+
+tvProgrammes1 = ["1. tom and jerry", "2. prison break", "3. scooby doo", "4. white collar"]
+tvProgrammes2 = [0,1,2,3]
+
+print(tvProgrammes1[0])
+print(tvProgrammes1[1])
+print(tvProgrammes1[2])
+print(tvProgrammes1[3])
