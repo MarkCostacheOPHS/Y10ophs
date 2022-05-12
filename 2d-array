@@ -1,0 +1,10 @@
+CHL1:
+
+MySpaceCompany = []
+
+print(MySpaceCompany)
+MySpaceCompany.append(input("input a type of space vehicle"))
+MySpaceCompany.append(input("input a type of space vehicle"))
+MySpaceCompany.append(input("input a type of space vehicle"))
+
+print(MySpaceCompany)
