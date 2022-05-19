@@ -22,3 +22,18 @@ print(MySpaceCompany)
 MySpaceCompany[1] = "Rich people going to the moon"
 
 print(MySpaceCompany)
+
+CHL 3
+
+Stuff = [
+         ["1", "2", "3", "4"],
+         ["a", "b", "c", "s"],
+         ["I", "II", "III", "IV"],
+         ]
+
+print(Stuff)
+
+Stuff[1][2] = "Crodyon"
+
+print(Stuff)
+
