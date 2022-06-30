@@ -1,1 +1,13 @@
+Files challenges
 
+CHL1 
+
+new = open("numbers.txt", "w")
+
+a = input("write 5 numbers separated by commas only  >>>")
+
+new.write(a)
+
+new.close()
+
+CHL2 
