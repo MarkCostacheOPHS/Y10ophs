@@ -2,3 +2,14 @@ def menu():
     print("1 for career mode")
     print("2 for tournament mode")
     print("3 for online seasons")
+    
+ 2)
+
+def menu():
+    print("1 = domination")
+    print("2 = team deathmatch")
+    print("3 = headquarters")
+
+    userinput = int(input("enter 1, 2 or 3 >>>"))
+
+menu()
