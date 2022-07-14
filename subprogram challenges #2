@@ -1,0 +1,12 @@
+(1)
+
+name = str(input("enter your name >>>"))
+
+def menu():
+    print("happy birthday to you")
+    print("happy birthday to you")
+    print("happy birthday to", name)
+    print("happy birthday to you")
+
+menu()
+
