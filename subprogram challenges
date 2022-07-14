@@ -51,4 +51,53 @@ def menu():
 
 menu()
 
+4)
+
+def creative():
+    print("creative selected")
+
+def survival():
+    print("survival selected")
+
+def hardcore():
+    print("hardcore selected")
+
+def adventure():
+    print("adventure selected")
+
+def exiting():
+    print("exiting...")
+
+def invalidchoice():
+    print("")
+    print("invalid choice")
+    print("")
+
+
+def menu():
+    print("1) Creative")
+    print("2) Survival")
+    print("3) Hardcore")
+    print("4) Adventure")
+    print("5) Exit")
+
+    userinput = int(input("enter 1, 2, 3 or 4 >>>"))
+
+    if userinput == 1:
+        creative()
+    elif userinput == 2:
+        survival()
+    elif userinput == 3:
+        hardcore()
+    elif userinput == 4:
+        adventure()
+    elif userinput == 5:
+        exiting()
+    else:
+        invalidchoice()
+        menu()
+
+menu()
+
+
 
