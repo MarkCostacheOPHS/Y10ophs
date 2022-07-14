@@ -99,5 +99,54 @@ def menu():
 
 menu()
 
+(5)
+
+def thinkbig():
+    print("think big selected")
+
+def thinkbigger():
+    print("think bigger selected")
+
+def winning():
+    print("winning selected")
+
+def winner():
+    print("winner selected")
+
+def exiting():
+    print("bye")
+
+def invalidchoice():
+    print("")
+    print("invalid choice")
+    print("")
+
+def menu():
+    print("1) Think big")
+    print("2) Think bigger")
+    print("3) Winning")
+    print("4) Winner")
+    print("5) Exit")
+
+    userinput = int(input("select 1, 2, 3, 4 or 5 >>>"))
+
+    if userinput == 1:
+       thinkbig()
+    elif userinput == 2:
+        thinkbigger()
+    elif userinput == 3:
+        winning()
+    elif userinput == 4:
+        winner()
+    elif userinput == 5:
+        exiting()
+    else:
+        invalidchoice()
+        menu()
+
+menu()
+
+
+
 
 
