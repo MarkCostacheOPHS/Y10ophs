@@ -10,3 +10,14 @@ def menu():
 
 menu()
 
+(2)
+
+radius = int(input("ente a number >>>"))
+pi = 3.14159
+
+def menu():
+    print("the area of the circle is", pi
+
+menu()
+
+
