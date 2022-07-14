@@ -16,4 +16,39 @@ def menu():
 
 menu()
 
+3)
+
+def singleplayer():
+    print("single player selected")
+
+def player2():
+    print("2 player selected")
+
+def online():
+    print("online selected")
+
+def exiting():
+    print("exiting...")
+    
+    
+    
+def menu():
+    print("1 for single player")
+    print("2 for 2 player")
+    print("3 for online")
+    print("4 for exit")
+
+    userInput = int(input("enter 1, 2, ,3 or 4 >>>"))
+
+    if userInput == 1:
+                    singleplayer()
+    elif userInput == 2:
+        player2()
+    elif userInput == 3:
+        online()
+    elif userInput == 4:
+        exiting()
+
+menu()
+
 
